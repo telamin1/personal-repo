@@ -1,7 +1,7 @@
 # XKCD Data Project
 
 ## Overview
-This project fetches comic data from the [XKCD API](https://xkcd.com/json.html), applies business logic (cost, views and reviews), and loads the data into Google BigQuery for analysis (modelling) and visualization.
+This project fetches comic data from the [XKCD API](https://xkcd.com/json.html), applies business logic (cost, views and reviews), and loads the data into Google BigQuery for analysis (modelling) and visualisation.
 
 
 ### Business Rules
@@ -14,6 +14,7 @@ This project fetches comic data from the [XKCD API](https://xkcd.com/json.html),
 - Fetch all XKCD comics or a specified range.
 - Transformation of data with calculated metrics.
 - Store data in BigQuery using a **Kimball-style dimensional model**:
-  - `dimension_comic` (comic details)
+  - `dim_comic` (comic details)
   - `fact_comic_metrics` (views, cost, reviews)
-  - `dimension_date` (date dimension)
+  - `dime_date` (date dimension)
+

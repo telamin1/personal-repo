@@ -1,0 +1,6 @@
+project_id: testproject-478620
+dataset_id: xkcd_dummy_dataset
+tables:
+  dim_comic: dimension_comic
+  fact_comic_metrics: fact_comic_metrics
+  dim_date: dimension_date

@@ -18,3 +18,10 @@ This project fetches comic data from the [XKCD API](https://xkcd.com/json.html),
   - `fact_comic_metrics` (views, cost, reviews)
   - `dime_date` (date dimension)
 
+## Set up instructions
+- Clone the Repository
+```bash
+git clone https://github.com/telamin1/xkcd-data-pipeline.git
+cd xkcd-data-pipeline
+- pip install -r requirements.txt
+- run the pipeline python src/main.py
